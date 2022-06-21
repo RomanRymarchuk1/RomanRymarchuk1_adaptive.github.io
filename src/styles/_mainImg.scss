@@ -1,0 +1,16 @@
+.intro-img {
+  width: 100%;
+  padding-top: 83px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: $tablet-bp) {
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-bp) {
+    margin: 0 auto;
+  }
+}

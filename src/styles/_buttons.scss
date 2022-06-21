@@ -1,0 +1,19 @@
+.heder__nav-btn {
+  position: absolute;
+  top: 23px;
+  right: 25px;
+
+  background-color: black;
+  width: 44px;
+  height: 37px;
+  border: none;
+  @media (min-width: $tablet-bp) {
+    display: none;
+  }
+}
+
+.heder__btn-svg--active {
+  position: absolute;
+  right: 0;
+  top: 0;
+}

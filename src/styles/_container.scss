@@ -1,0 +1,15 @@
+.page-container {
+  padding: 0 25px;
+
+  @media (min-width: $tablet-bp) {
+    padding: 0 85px;
+  }
+
+  @media (min-width: $desktop-bp) {
+    padding: 0 215px;
+  }
+}
+
+.none {
+  display: none;
+}
